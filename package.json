@@ -1,0 +1,25 @@
+{
+  "name": "NodeAPI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node",
+    "build": "babel index.js -d dist"
+  },
+  "repository": "https://github.com/ValdeirNeto/NodeAPI.git",
+  "author": "Valdeir da Silva Neto <vdasilvaneto@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.13",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.18.4"
+  }
+}
