@@ -16,6 +16,10 @@ const Bill = new mongoose.Schema({
     date: {
         type: Date,
         default: Date.now
+    },
+    cep: {
+        type: String,
+        require: false
     }
 })
 

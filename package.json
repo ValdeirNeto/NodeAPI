@@ -5,7 +5,7 @@
   "scripts": {
     "start": "nodemon index.js --exec babel-node",
     "build": "babel index.js -d dist",
-    "web": "./node_modules/.bin/http-server webapp/index.html -a localhost -p 8085"
+    "web": "./node_modules/.bin/http-server ./webapp/ -a localhost -p 8085"
   },
   "repository": "https://github.com/ValdeirNeto/NodeAPI.git",
   "author": "Valdeir da Silva Neto <vdasilvaneto@gmail.com>",
